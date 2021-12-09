@@ -5,7 +5,6 @@ button {
 
   max-width: 20rem;
   width: 100%;
-
   border: 0;
   background: var(--background-button);
   padding: 1.1875rem 2rem;
@@ -24,12 +23,7 @@ button {
     margin-top: 1rem;
   }
 
-  &:first-child {
-    margin-top: 0;
-  }
-
   &.selected {
-    background: var(--background-button2);
-    color: var(--yellow);
+    background-color: var(--background-button2);
   }
 }
